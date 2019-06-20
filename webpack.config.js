@@ -62,15 +62,13 @@ module.exports = {
     new Plugins.Html({
       template: path.resolve(__dirname, 'src/views/options/options.html'),
       filename: 'options.html',
-      inject: false,
-      minify: {}
+      inject: false
     }),
 
     new Plugins.Html({
       template: path.resolve(__dirname, 'src/views/popup/popup.html'),
       filename: 'popup.html',
-      inject: false,
-      minify: {}
+      inject: false
     })
   ]
 }
