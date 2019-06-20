@@ -1,6 +1,6 @@
 import browser from 'webextension-polyfill'
 
-// This will allow you to localize your popup/options html files
+// This will allow you to localize your html files
 export const LocalizeHtml = () => {
   const tags = document.querySelectorAll('[data-localize]')
 
