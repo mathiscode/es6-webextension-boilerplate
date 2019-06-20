@@ -9,7 +9,7 @@ const Plugins = {
 
 module.exports = {
   mode: process.env.NODE_ENV === 'development' ? 'development' : 'production',
-  devtool: process.env.NODE_ENV === 'development' ? 'eval-cheap-module-source-map' : 'source-map',
+  devtool: process.env.NODE_ENV === 'development' ? 'eval' : 'source-map',
 
   entry: {
     background: path.resolve(__dirname, 'src/background.js'),

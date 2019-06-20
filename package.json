@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A boilerplate for writing WebExtensions in ES6 with Webpack",
   "scripts": {
-    "start": "webpack -w",
+    "start": "cross-env NODE_ENV=development webpack -w",
     "browser": "web-ext run",
     "develop": "npm-run-all --parallel start browser",
     "build": "npm-run-all build:*",
@@ -39,6 +39,7 @@
     "babel-loader": "^8.0.6",
     "bestzip": "^2.1.4",
     "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.2.0",
     "css-loader": "^3.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
