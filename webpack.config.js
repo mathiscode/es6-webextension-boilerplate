@@ -60,7 +60,7 @@ module.exports = {
     }),
 
     new Plugins.Html({
-      template: path.resolve(__dirname, 'src/views/options/options.Html'),
+      template: path.resolve(__dirname, 'src/views/options/options.html'),
       filename: 'options.html',
       inject: false,
       minify: {}
