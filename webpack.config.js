@@ -1,4 +1,4 @@
-const webpack = require('webpack') // eslint-disable-line
+require('webpack')
 const path = require('path')
 
 const Plugins = {
