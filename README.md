@@ -2,6 +2,7 @@
 
 - [Getting Started](#Getting-Started)
 - [Development](#Development)
+- [Modifying](#Modifying)
 - [Building](#Building)
 - [Internationalization](#Internationalization)
 
@@ -28,6 +29,17 @@ This will cause webpack to watch for changes and automatically compile the exten
 You can tweak the web-ext config in [web-ext-config.js](web-ext-config.js).
 
 If you prefer to only start webpack in watch mode: `npm start`
+
+## Modifying
+
+You will want to look at the following files and directories:
+
+- [extension/manifest.json](extension.manifest.json) - Your extension's manifest
+- [extension/_locales/en/messages.json](extension/_locales/en/messages.json) - English (default) localized messages
+- [src/background.js](src/background.js) - Background script
+- [src/content.js](src/content.js) - Content script
+- [src/views/popup](src/views/popup) - Files related to the extension's toolbar popup (browser action)
+- [src/views/options](src/views/options) - Files related to the extension's options page
 
 ## Building
 
