@@ -47,6 +47,8 @@ AMO requires that you submit the full source to be listed publicly, so the build
 
 There is also a helper utility in [src/utils/i18n.js](src/utils/i18n.js) that will allow you to localize your extension's HTML pages. This is done by default in the options and popup pages.
 
-In the HTML, use the `data-localize` attribute to specify the message key to use; eg. `<h1 data-localize="__MSG_extensionName__"></h1>`
+In the HTML, use the `data-localize` attribute to specify the message key to use; eg:
+
+`<h1 data-localize="__MSG_extensionName__"></h1>`
 
 To see this in action, refer to [src/views/options](src/views/options) and [src/views/popup](src/views/popup).
