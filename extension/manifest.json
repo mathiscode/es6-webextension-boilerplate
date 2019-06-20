@@ -1,0 +1,54 @@
+{
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.0",
+
+  "developer": {
+    "name": "__MSG_extensionDeveloperName__",
+    "url": "__MSG_extensionDeveloperURL__"
+  },
+  
+  "default_locale": "en",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+  
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "background": {
+    "scripts": ["dist/background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"]
+    }
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icon.png",
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "dist/popup.html"
+  },
+
+  "options_ui": {
+    "browser_style": true,
+    "open_in_tab": true,
+    "page": "dist/options.html"
+  },
+
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "96": "icon.png",
+    "128": "icon.png"
+  }
+}

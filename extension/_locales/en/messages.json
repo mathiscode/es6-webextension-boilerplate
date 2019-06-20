@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "ES6 WebExtension Boilerplate",
+    "description": "The name of the extension"
+  },
+
+  "extensionDescription": {
+    "message": "A boilerplate for writing WebExtensions in ES6 with Webpack",
+    "description": "The description of the extension"
+  },
+
+  "extensionDeveloperName": {
+    "message": "J.R. Mathis",
+    "description": "The name of the extension's developer"
+  },
+
+  "extensionDeveloperURL": {
+    "message": "https://github.com/mathiscode/es6-webextension-boilerplate",
+    "description": "The URL of the extension's developer"
+  }
+}
