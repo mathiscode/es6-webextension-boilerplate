@@ -34,7 +34,7 @@ If you prefer to only start webpack in watch mode: `npm start`
 
 You will want to look at the following files and directories:
 
-- [extension/manifest.json](extension.manifest.json) - Your extension's manifest
+- [extension/manifest.json](extension/manifest.json) - Your extension's manifest
 - [extension/_locales/en/messages.json](extension/_locales/en/messages.json) - English (default) localized messages
 - [src/background.js](src/background.js) - Background script
 - [src/content.js](src/content.js) - Content script
