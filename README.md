@@ -2,12 +2,13 @@
 
 <!-- Change the badges below to suit your project -->
 
+<!--
 [![Mozilla Add-on](https://img.shields.io/amo/v/es6-webextension-boilerplate.svg)](https://addons.mozilla.org/en-US/firefox/addon/es6-webextension-boilerplate)
 [![Mozilla Add-on](https://img.shields.io/amo/users/es6-webextension-boilerplate.svg)](https://addons.mozilla.org/en-US/firefox/addon/es6-webextension-boilerplate)
 [![Mozilla Add-on](https://img.shields.io/amo/dw/es6-webextension-boilerplate.svg)](https://addons.mozilla.org/en-US/firefox/addon/es6-webextension-boilerplate)
 [![Mozilla Add-on](https://img.shields.io/amo/stars/es6-webextension-boilerplate)](https://addons.mozilla.org/en-US/firefox/addon/es6-webextension-boilerplate)
+-->
 [![Beerpay](https://beerpay.io/mathiscode/es6-webextension-boilerplate/badge.svg?style=beer-square)](https://beerpay.io/mathiscode/es6-webextension-boilerplate)  [![Beerpay](https://beerpay.io/mathiscode/es6-webextension-boilerplate/make-wish.svg?style=flat-square)](https://beerpay.io/mathiscode/es6-webextension-boilerplate?focus=wish)
-
 [![Build Status](https://travis-ci.org/mathiscode/es6-webextension-boilerplate.svg?branch=master)](https://travis-ci.org/mathiscode/es6-webextension-boilerplate)
 [![GitHub license](https://img.shields.io/github/license/mathiscode/es6-webextension-boilerplate.svg?color=blue)](https://github.com/mathiscode/es6-webextension-boilerplate/blob/master/LICENSE)
 [![Standardjs](https://img.shields.io/badge/code_style-standard-blue.svg)](https://standardjs.com)
