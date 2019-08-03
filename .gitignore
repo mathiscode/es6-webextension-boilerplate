@@ -1,3 +1,5 @@
 node_modules/
 extension/dist/
 web-ext-artifacts/
+yarn-error.log
+npm-error.log

@@ -15,3 +15,9 @@ export const LocalizeHtml = () => {
     }
   }
 }
+
+// This will provide either the localized string or a default
+export const getLocalizedString = (key, defaultString) => {
+  const message = browser.i18n.getMessage(key)
+  return (message === '' && defaultString) ? defaultString : (message === '' ? '' : message)
+}
