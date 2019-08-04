@@ -13,7 +13,7 @@
 [![GitHub license](https://img.shields.io/github/license/mathiscode/es6-webextension-boilerplate.svg?color=blue)](https://github.com/mathiscode/es6-webextension-boilerplate/blob/master/LICENSE)
 [![Standardjs](https://img.shields.io/badge/code_style-standard-blue.svg)](https://standardjs.com)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](https://github.com/mathiscode/es6-webextension-boilerplate/compare)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https://github.com/mathiscode/es6-webextension-boilerplate#readme&hashtags=firefox,chrome,passwords,security)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https://github.com/mathiscode/es6-webextension-boilerplate#readme&hashtags=firefox,chrome,addon,extension,boilerplate)
 
 ---
 
