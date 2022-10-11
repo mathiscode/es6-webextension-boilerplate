@@ -1,6 +1,6 @@
 body {
   padding: 0 1.5rem;
-  color: #444;
+  color: rgb(153, 9, 9);
 
   h1#popup-title {
     text-align: center;
@@ -9,5 +9,7 @@ body {
 
   #content {
     font-size: 1.5rem;
+    color: rgb(153, 9, 9);
+    background-color: rebeccapurple;
   }
 }
